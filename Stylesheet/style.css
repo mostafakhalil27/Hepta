@@ -1,0 +1,347 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* @media screen and (max-width:1024px) {
+    body {
+        
+
+    }
+    
+} */
+
+
+/* to make margin right and left generaly in and container class */
+.container{
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+
+
+/* in the navbar and customize it in row */
+nav{
+    border-top: 3px solid green;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* in the navbar we customize the list in row  */
+.links li{
+    float: left;
+    margin: 10px; 
+
+}
+
+/* to delete the underline in the link  */
+.links a{
+    text-decoration: none;
+}
+
+/* to delete the dots from the list */
+.links ul{
+    list-style: none;
+}
+
+/* to clear a line after the float  */
+.clear{
+    clear: both;
+}
+
+
+/* to customize the home word in the navbar  */
+.links .Home{
+    color: #000;
+    font-size: large;
+}
+
+/* to customize about,careers and contact words in the navbar  */
+.links .About{
+    color: grey;
+    font-size: large;
+}
+
+/* in the navbar, to customize we are hiring sentence  */
+.links .We{
+    background-color:rgb(166, 137, 83);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+/* we made a div and added a background-image and made it relative */
+.image{
+    background-image: url(../Images/Img.jpeg);
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+}
+
+/* we made another div and customized it on the background-image , we made it absolute */
+.title{
+   border-left: 3px solid olivedrab;
+   margin-left: 15px;
+   height: 80px;
+   width: 350px;
+   background-color: rgba(19, 11, 11, 0.251);
+   color: azure;
+   padding-left: 20px;
+   padding-top: 5px;
+   top: 400px;
+   left: 180px;
+   position: absolute;
+   padding-bottom: 40px;
+}
+
+/* to customize the header of the child div */
+.title .head{
+    margin-bottom: 2px;
+}
+
+/* to customize the paragraph in the child div */
+.title .paragraph{
+    color: grey;
+    margin-top: 1px;
+}
+
+/* to customize the pre inside the div */
+.text{
+    border-bottom: 2px;
+    box-shadow: -2px -2px 5px 0px; 
+    padding-left: 20px;
+    font-size: larger;
+    padding-left: 150px;
+} 
+
+/* to customize the div */
+.text pre{
+    margin-top: 0;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+
+/* what we offer's parent div */
+.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* to customize the headline in the parent div */
+.offers-container .Title{
+    text-align: center;
+}
+
+/* to customize the headline of each div */
+.offers-container .offers h4{
+    color: rgb(125, 125, 149);
+}
+
+.offers-container .offers div{
+    padding-left: 120px;
+}
+/* the end of offers-container div */
+
+
+
+/*  
+-- the start of bounes-container div
+--  to customize the parent div's background-color
+*/
+.bounes-container{
+    background-color: rgb(47, 57, 63);
+}
+
+/* to customize the headline in the parent div */
+.bounes-container h3{
+    margin-left: 350px;
+    padding-top: 20px;
+    color: #eee;
+}
+
+
+/* to customize the parent div and made two rows and three colmune   */
+.bouns{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 200px 20px 200px;
+}
+
+/* to delete the dotes from the left list */
+.bounes-container .left ul{
+    list-style: none;
+    color: rgb(125, 125, 149);
+}
+
+/* to delete the dotes from the right list */
+.bounes-container .right ul{
+    list-style: none;
+    color: rgb(125, 125, 149);
+}
+.bounes-container .right ul .color{
+    color: orange;
+}
+/* the end of the bounes-container div */
+
+
+
+/* the start of open options div */
+.postions{
+    margin: auto;
+    /* border: 1px solid; */
+    width: 100%;
+}
+.postions h2{
+    text-align: center;
+}
+.postions .lol{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    
+}
+.postions .lol .sit{
+    color: rgb(123, 92, 92);
+    padding-top: 30px;
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px;
+    font-size: large;
+}
+.postions .lol .sit1{
+    color: rgb(123, 92, 92);
+    padding-top: 30px;
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px;
+    font-size: large;
+}
+.postions .lol .sit2{
+    color: rgb(123, 92, 92);
+    padding-top: 30px;
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px;
+    font-size: large;
+}
+/* the end of postions div */
+
+
+
+/* the parent div */
+.missions{
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px 0px; 
+    display: flex;
+    width: 80%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.missions p{
+    color: rgb(123, 92, 92);
+}
+.missions ul{
+    color:rgb(123, 92, 92); 
+}
+
+
+/* the left div (child) */
+.missions .left{
+    display: flex;
+}
+.missions .left .div1{
+    padding-right: 55px;
+    padding-left: 20px;
+}
+.missions .left .div1 .re{
+    padding-top: 30px;
+}
+.missions .left .div2 ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 20px;
+}
+.missions .left .div2{
+    padding-right: 50px;
+}
+
+
+/* the right div (child) */
+.missions .right{
+    display: flex;
+    padding-left: 130px;
+}
+.missions .right .div3{
+    padding-right: 40px;
+}
+.missions .right .div4{
+    padding-left: 20px;
+}
+.missions .right .div3 .ty{
+    padding-top: 20px;
+}
+.missions .right .div3 .lo{
+    padding-top: 25px;
+}
+.missions .right .div4 .em{
+    padding-top: 5px ;
+}
+.missions .right .div4 .ip{
+    padding-top: 5px;
+}
+.missions .right .div4 .do{
+    padding-top: 10px;
+}
+
+/* the apply div */
+.missions .right .div4 .apply .for{
+    text-decoration:none ;
+    color: aliceblue;   
+}
+.missions .right .div4 .apply{
+    background-color:rgb(166, 137, 83); 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+/* the end of missions div */
+
+
+/* the start of the footer */
+.footer .footer1{
+    color: rgb(123, 92, 92);
+    background-color: rgb(47, 57, 63);
+    text-align: center;
+    border-top: 3px solid orange;
+    margin-top: 10px;
+}
+
+.footer .footer2{
+    color: rgb(123, 92, 92);
+    background-color: rgb(28, 34, 37);
+    text-align: center;
+}
+/* the end of the footer */
+
+
+
+
+
+
+
+
